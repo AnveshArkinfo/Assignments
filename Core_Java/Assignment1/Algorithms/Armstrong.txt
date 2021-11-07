@@ -1,0 +1,14 @@
+Algorithm
+
+
+1. Input the number.
+2. Initialize sum=0 and temp=number.
+3. Find the total number of digits in the number.
+4. Repeat until (temp != 0)
+5. remainder = temp % 10
+6. result = resut + pow(remainder,n)
+7. temp = temp/10
+8. if (result == number)
+9. Display "Armstrong"
+10. Else
+11. Display "Not Armstrong"

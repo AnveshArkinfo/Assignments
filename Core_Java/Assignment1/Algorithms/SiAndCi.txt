@@ -1,0 +1,7 @@
+Alogorithm
+
+1. Declare variables p,t,r,si,ci
+2. Take input values to assign p,t,r
+3. Calculate si using formula si = (p*t*r)/100
+4. Calcualte ci using formula ci = p*(1+r/100)power t
+		i.e., p*Math.pow((1+r/100), t);

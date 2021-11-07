@@ -1,0 +1,14 @@
+Algorithm
+
+
+1. take a variable as num and valve is 100.
+2. Initialize res=0 and temp=num.
+3. for(100-999)
+4. Initialize n=0
+5. Find the total number of digits in the number n.
+6. Repeat until (temp != 0)
+7. remainder = temp % 10
+8. result = resut + pow(remainder,n)
+9. temp = temp/10
+10. if (result == number)
+11 . Display "number"
